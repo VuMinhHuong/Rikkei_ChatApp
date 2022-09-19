@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.create {
+    text-align: center;
+}
+.create .sign_in {
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid rgb(255, 255, 255);
+    width: 350px;
+}
+.create .sign_in .logo img {
+    width: 100px;
+}
+
+/* sing in table */
+.create .sign_in_table {
+    width:350px;
+    height: 600px;
+    border: 1px solid rgb(128, 42, 42);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.create .sign_in_table p {
+    margin: 30px 0px 0px 20px;
+    font-size: 18px;
+    float: left;
+}
+.create .sign_in_table input {
+    width: 300px;
+    height: 30px;
+    margin: 10px 0px 0px 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    float: left;
+    outline-color: rgb(128, 42, 42);
+}
+.create .sign_in_table button {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(168, 58, 58);
+    margin: 20px 0px 30px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    float: left;
+}
+.create .sign_in_table button:hover {
+    cursor: pointer;
+}
+.create .sign_in .new_acc {
+    margin-bottom: 10px;
+}
+
+.create .sign_in .new_acc p{
+    display: inline-block;
+    width: 350px;
+    height: 50px;
+    margin: 20px 0px 10px 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid  rgb(128, 42, 42);
+    text-align: center;
+    line-height: 50px;
+}
+.create .sign_in .new_acc p:hover {
+    cursor: pointer;
+}
+.create .sign_in  .forget_pass {
+    float: right;
+}
+.create .sign_in  .forget_pass:hover {
+    cursor: pointer;
+}
+
+
+
